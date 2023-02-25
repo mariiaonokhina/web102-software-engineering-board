@@ -4,7 +4,7 @@ Submitted by: **Mariia Onokhina**
 
 A website that contains a showcase of different software engineering resources. Project for CodePath WEB102.
 
-Time spent: **3** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
