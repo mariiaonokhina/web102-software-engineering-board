@@ -1,6 +1,3 @@
-# web102-software-engineering-board
-A website that contains a showcase of different software engineering resources. Project for CodePath WEB102.
-
 # WEB102 Project 1 - Software Engineering Favorites Board
 
 Submitted by: **Mariia Onokhina**
