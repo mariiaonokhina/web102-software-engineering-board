@@ -4,7 +4,7 @@ Submitted by: **Mariia Onokhina**
 
 This web app: **contains a showcase of different software engineering resources.**
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
