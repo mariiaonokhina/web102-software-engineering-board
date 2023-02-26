@@ -54,3 +54,8 @@ button:hover {
   box-shadow: #121212 0 3px 0 0;
   transform: translateY(-3px);
 }
+
+.Card:hover {
+  filter: brightness(115%);
+  cursor: pointer;
+}
