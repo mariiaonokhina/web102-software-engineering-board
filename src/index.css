@@ -30,9 +30,8 @@ table {
 }
 
 .Card img {
-  height: 10%;
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 140px;
+  max-height: 140px;
   width: 100%;
   border-radius: 10px;
 }
@@ -58,4 +57,89 @@ button:hover {
 .Card:hover {
   filter: brightness(115%);
   cursor: pointer;
+}
+
+
+/* Medium devices (landscape tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  table {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Card {
+    max-width: 150px;
+    width: 33%;
+    padding: 2vh;
+  }
+  
+  .Card h3 {
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+    margin: 1vh;
+  }
+
+  .Card img {
+    min-height: 130px;
+    max-height: 130px;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  button {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
+    margin: 0;
+  }
+
+  .Card img {
+    min-height: 100px;
+    max-height: 100px;
+  }
+}
+
+
+/* Extra small devices (phones) */
+@media only screen and (min-width: 355px) and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .Card h3 {
+    font-size: 10px;
+  }
+
+  button {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+
+  .Card {
+    width: 33%;
+    padding: 1vh;
+  }
+
+  .Card img {
+    min-height: 90px;
+    max-height: 90px;
+  }
 }

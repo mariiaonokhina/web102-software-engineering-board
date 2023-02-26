@@ -39,11 +39,14 @@ const CardGrid = () => {
                     </tr>
 
                     {/* Grid row */}
+                    <tr>
                         <Card name="Font Awesome" link="https://fontawesome.com/" picture="https://www.drupal.org/files/project-images/font_awesome_logo.png" />
 
                         <Card name="Forage" link="https://www.theforage.com/" picture="https://miro.medium.com/max/1200/1*Df5aldU_dXvFRsNQbGYLLA.png" />
 
                         <Card name="Real Python" link="https://realpython.com/" picture="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png" />
+                    </tr>
+
                 </tbody>
             </table>
             
