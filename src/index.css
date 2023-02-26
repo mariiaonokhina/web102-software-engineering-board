@@ -10,12 +10,14 @@ table {
     place-content: center;
     justify-content: center;
     border-spacing: 5vw;
+    table-layout: fixed;
+    width: 100%;
 }
 
 .Card {
   max-width: 250px;
-  height: 30%;
-  width: auto;
+  height: 50%;
+  width: 33%;
   background-color: white;
   padding: 3vh 3vw;
   border-radius: 10px;
