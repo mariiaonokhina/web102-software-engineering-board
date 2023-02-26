@@ -26,7 +26,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-GIF created with ...  
+<img src='Website Walkthrough.gif' title='Video Walkthrough' alt='Video Walkthrough' />
+
+
+GIF created with **LICECap**.
 
 ## Notes
 
