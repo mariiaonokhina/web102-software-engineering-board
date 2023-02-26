@@ -24,20 +24,15 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<!-- Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features:
 
-
-
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. --> -->
 
 ## Notes
 
-<!-- Describe any challenges encountered while building the app. -->
+* I had trouble with keeping all cards the same width. I fixed it by setting min-width and max-width for each one of them
+* When the screen is resized, the table would just overflow outside of the screen. I fixed it by decreasing the width of cards at each breakpoint.
+* All pictures, including the background cover, are taken from various online resources. I did a Google search and copied the direct links to images I found.
 
 ## License
 
