@@ -29,6 +29,10 @@ table {
   align-content: center;
 }
 
+.Card p {
+  height: 50px;
+}
+
 .Card img {
   min-height: 140px;
   max-height: 140px;
@@ -115,6 +119,11 @@ button:hover {
     min-height: 100px;
     max-height: 100px;
   }
+
+  .Card p {
+    font-size: 1.5vh;
+    margin-bottom: 1.5vh;
+  }
 }
 
 
@@ -136,6 +145,11 @@ button:hover {
   .Card {
     width: 33%;
     padding: 1vh;
+  }
+
+  .Card p {
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
   }
 
   .Card img {

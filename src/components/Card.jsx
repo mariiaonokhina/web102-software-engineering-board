@@ -8,6 +8,8 @@ const Card = (props) => {
 
             <h3>{props.name}</h3>
 
+            <p>{props.description}</p>
+
             <a href={props.link}><button role="button">Visit Website</button></a>
         </td>
     )
